@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: Bonuin Package Payments
- * Plugin URI: http://tomplabs.com
+ * Plugin Name: Package Invoice Payments
+ * Plugin URI: http://tomplabs.com/can
  * Description: This plugin adds option to add Invoices in backend for Bonuin Theme.
  * Version: 1.0.0
  * Author: Can Mehmet
