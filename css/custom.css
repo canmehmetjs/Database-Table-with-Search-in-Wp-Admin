@@ -1,0 +1,225 @@
+table#invoice_listings tr td {
+    padding: 15px;
+    background: #f7f7f7;
+    font-family: "Open Sans",'sans-serif';
+}
+table#invoice_listings tr td.green {
+    background: #46ea31;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+}
+table#invoice_listings tr th {
+    padding: 24px;
+    border-bottom: 2px solid #000;
+}
+
+.makes-and-models-wrapper {
+    background: #fff;
+    padding: 43px;
+    margin-top: 52px;
+    width: 94%;
+	display: table;
+	    position: relative;
+		    overflow: hidden;
+}
+
+
+.fullwidth{
+   padding:40px;
+    width: 100%%;
+	float:left;
+}
+
+
+.bonuin_admin_form{
+	padding:50px 0;
+}
+
+form.bonuin_admin_form fieldset{
+	padding:10px 0;
+}
+form.bonuin_admin_form input ,
+form.bonuin_admin_form textarea 
+{
+    padding: 20px;
+    width: 100%;
+	    font-size: 16px;
+		
+}
+
+form.bonuin_admin_form fieldset button {
+    border: none;
+    box-shadow: none;
+	margin-top:30px;
+}
+.makes-and-models-wrapper h2 {
+    font-family: "Open Sans",'sans-serif';
+    font-size: 26px;
+    font-weight: 400;
+    color: #5e5d5d;
+}
+.bonuin_submit {
+    border-radius: 50px;
+    background: #3dcf7b;
+    color: #fff;
+    padding: 14px 45px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Open Sans",'sans-serif';
+    letter-spacing: 1px;
+	cursor:pointer;
+	text-decoration:none;
+	border:2px solid #3dcf7b;
+	
+}
+.bonuin_submit:hover{
+	border:2px solid #3dcf7b;
+	color:#3dcf7b;
+	background:none;
+}
+.bonuin_submit:focus{
+	outline:none;
+}
+table.bonuin_created_makes,
+table.bonuin_created_models{
+
+    border: 1px solid #eee;
+}
+
+table.bonuin_created_makes thead tr th ,
+table.bonuin_created_models thead tr th {
+    padding: 20px;
+    font-size: 18px;
+    font-family: "Open Sans",'sans-serif';
+    font-weight: 600;
+    background: #f1f1f1;
+}
+
+table.bonuin_created_makes tbody tr ,
+table.bonuin_created_models tbody tr {
+    background: #f8f8f8;
+}
+
+table.bonuin_created_makes tbody tr td ,
+table.bonuin_created_models tbody tr td {
+    padding: 20px;
+    font-size: 13px;
+    font-family: "Open Sans",'sans-serif';
+    font-size: 17px;
+    text-align: center;
+    line-height: 33px;
+}
+
+
+table.bonuin_created_makes a.delete-make ,
+table.bonuin_created_makes a.edit-make ,
+table.bonuin_created_models a.delete-model ,
+table.bonuin_created_models a.edit-model {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+p.notification {
+      position: absolute;
+    font-size: 20px;
+    float: left;
+    left: 80px;
+    top: 24px;
+    display: inline-block;
+    padding: 4px 42px;
+}
+p.notification.error{
+	color: #fff;
+	background:#f94949;
+	border-left: 6px solid #ca0505;
+}
+
+p.notification.success{
+	color: #fff;
+	background:#3dcf7b;
+	border-left: 6px solid #ca0505;
+}
+
+.remodal.admin_remodal{
+	max-width: 96%;
+}
+
+form.bonuin_admin_form fieldset label {
+    float: left;
+    font-size: 20px;
+    clear: both;
+    margin-bottom: 11px;
+}
+
+form.bonuin_admin_form fieldset select {
+    float: left;
+    width: 100%;
+    height: 58px;
+    padding-left: 21px;
+    line-height: 13px;
+}
+
+p#model_view_notification {
+    color: #3dcf7b;
+}
+
+
+
+table.bonuin_no_author_posts {
+   font-family: "Open Sans",'sans-serif';
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.bonuin_no_author_posts td, table.bonuin_no_author_posts th {
+    border: 1px solid #f9f9f9;
+    text-align: left;
+    padding: 13px;
+    font-size: 15px;
+    
+}
+
+#bonuin_loader {
+    position: absolute;
+    top: 114px;
+    right: 41px;
+	display:none;
+}
+#bonuin_loader img{
+    width: 75px;
+}
+table.bonuin_no_author_posts tr:nth-child(even) {
+    background-color: #fefefe;
+}
+
+.bonuin_no_author_posts td.green {
+    background: #93e527;
+    color: #fff;
+    text-transform: uppercase;
+}
+.bonuin_no_author_posts td.blue {
+    background: #49aee9;
+    color: #fff;
+    text-transform: uppercase;
+}
+.search_table input {
+    position: absolute;
+    top: 37px;
+    right: 47px;
+    padding: 20px;
+    min-width: 253px;
+    font-family: "Open Sans",'sans-serif';
+    font-size: 15px;
+}
+.bonuin_no_author_posts .bold{
+	font-weight:bold;
+}
+
+.bonuin_no_author_posts th {
+    background: #e9e9e9;
+}
